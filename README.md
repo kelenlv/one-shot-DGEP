@@ -1,15 +1,12 @@
-# DGEP
-**GEP_sym.m**: only optimization process
+# one-shot DGEP
 
-**apl_CCA.m**: an application of GEP; communication+optimization process
+including DGEP-SVD, DGEP-PM, DCCA-PM.
 
-**gene_dcca.m**: classification on gene datasets
+**exp1.m:** one-shot DGEP on synthetic data.
 
+**exp2.m:** one-shot DCCA on synthetic data.
 
+**exp3.m:** distributed FDA in binary classification.
 
-# final DGEP
-**exp1.m**: synthetic DGEP, including dsvd.m (DGEP-PM-multiround exactly), yyplot.m
+**exp4.m:** distributed CCA in multi-classification.
 
-**exp3.m**: standard FDA
-
-**exp4.m**: DGEP on FDA, including plot_fda.m (to see the classification performance of projected vectors)
